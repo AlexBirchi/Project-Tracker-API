@@ -1,0 +1,24 @@
+App\Entity\User:
+  attributes:
+    email:
+      groups: ['read', 'write']
+    roles:
+      groups: ['write']
+    password:
+      groups: ['write']
+    fullName:
+      groups: ['read', 'write']
+    projectUsers:
+      ignore: true
+    reportedItems:
+      ignore: true
+    asignedItems:
+      ignore: true
+    itemComments:
+      ignore: true
+    userIdentifier:
+      ignore: true
+    username:
+      ignore: true
+    salt:
+      ignore: true
